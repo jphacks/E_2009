@@ -28,9 +28,8 @@
     <textarea></textarea>
   </span>
 
-  <span>
+  <span id="activityDate">
     <p>活動日時</p>
-    <!-- JSでループさせてここに活動日時欄を作りたい -->
   </span>
 
   <span>
@@ -80,5 +79,7 @@
 </div>
 
 <button><span class="material-icons">arrow_back</span></button>
+
+<script src="../static/js/createForm.js"></script>
 
 <?php include('./footer.php'); ?>
