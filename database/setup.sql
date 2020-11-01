@@ -41,11 +41,11 @@ CREATE TABLE KINDRED.CIRCLE_TIME(
     WED_TIME        VARCHAR(20)             ,
     IS_THU          INT                     ,
     THU_TIME        VARCHAR(20)             ,
-    IS_FRI          INT                    ,
+    IS_FRI          INT                     ,
     FRI_TIME        VARCHAR(20)             ,
-    IS_SAT          INT             NOT NULL,
+    IS_SAT          INT                     ,
     SAT_TIME        VARCHAR(20)             ,
-    IS_SUM          INT             NOT NULL,               #日曜日があるか　なければnull
+    IS_SUM          INT                     ,               #日曜日があるか　なければnull
     SUM_TIME        VARCHAR(20)                             #日曜日の活動時間
 );
 
