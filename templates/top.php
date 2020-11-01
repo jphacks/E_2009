@@ -1,4 +1,6 @@
 <?php $title = 'Kindred top'; ?>
 <?php include('./header.php'); ?>
-<!-- ここにbodyの中身を記述 -->
+
+<img src="../static/image/undraw_group_selfie_ijc6.svg" alt="若者の画像">
+
 <?php include('./footer.php'); ?>
