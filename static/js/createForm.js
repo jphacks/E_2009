@@ -43,3 +43,10 @@ function activityDateCheck() {
   }
 
 }
+
+// テキストエリアの文字数チェック
+function textLengthCheck() {
+  var input = document.getElementById("formTextArea");
+  var span = document.getElementById("inputCounter");
+  span.textContent = input.value.length;
+}
