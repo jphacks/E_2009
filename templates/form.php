@@ -1,7 +1,7 @@
 <?php $title = 'Kindred form'; ?>
 <?php include('./header.php'); ?>
 
-<h1>Kindred</h1>
+<h1><a href="./top.php">Kindred</a></h1>
 <p>circle matching app</p>
 <p>サークル新規登録</p>
 
@@ -79,7 +79,7 @@
   </form>
 </div>
 
-<button><span class="material-icons">arrow_back</span></button>
+<button onclick="location.href='./list.php'"><span class="material-icons">arrow_back</span></button>
 
 <script src="../static/js/createForm.js"></script>
 
