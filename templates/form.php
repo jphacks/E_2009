@@ -25,7 +25,7 @@
 
   <span>
     <p>紹介文</p>
-    <textarea id="formTextArea" onkeyup="textLengthCheck();"></textarea>
+    <textarea id="formTextArea" rows="10" cols="50" onkeyup="textLengthCheck();"></textarea>
     <p><span id="inputCounter">0</span>/500文字</p>
   </span>
 
