@@ -10,3 +10,6 @@ env.php
 
 # SCSS
 reset.min.css
+component.min.css
+phone.min.css
+desktop.min.css
