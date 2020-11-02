@@ -1,0 +1,12 @@
+/* 変数宣言 */
+$bg-color: #ffc405;
+$btn-color: #a15ac9;
+$text-color: #404040;
+$shadow: #d6d6d6;
+$back-btn: #545454;
+
+/* 全体の共通部分ここから */
+html {
+  background-color: $bg-color;
+}
+/* 全体の共通部分ここまで */
