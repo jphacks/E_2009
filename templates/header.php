@@ -6,3 +6,6 @@
     <title><?php echo $title ?></title>
   </head>
   <body>
+<?php
+  require('env.php');
+?>
