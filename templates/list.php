@@ -1,7 +1,7 @@
 <?php $title = 'Kindred university'; ?>
 <?php include('./header.php'); ?>
 
-<h1>Kindred</h1>
+<h1><a href="./top.php">Kindred</a></h1>
 <p>circle matching app</p>
 
 <form id="searchArea">
