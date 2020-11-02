@@ -3,7 +3,7 @@
     {
       "format": "compressed",
       "extensionName": ".min.css",
-      "savePath": "/static/style/"
+      "savePath": "/static/style/css/"
     }
   ],
   "liveSassCompile.settings.generateMap": false,
