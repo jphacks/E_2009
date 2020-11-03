@@ -4,9 +4,11 @@ DROP DATABASE KINDRED;
 #データベースの作成
 CREATE DATABASE KINDRED;
 
+
+
 #学校テーブルの作成
 CREATE TABLE KINDRED.SCHOOL(
-    ID              INT             NOT NULL PRIMARY KEY,   #自動生成される?
+    ID              INT             NOT NULL PRIMARY KEY,   #個別にこちら側から割り振る
     SCHOOL_NAME     VARCHAR(50)     NOT NULL,               #学校名
     DEPART_NAME     VARCHAR(50)     NOT NULL,               #学部名
     CAMPUS_NAME     VARCHAR(50)     NOT NULL,               #キャンパス名
@@ -24,9 +26,9 @@ CREATE TABLE KINDRED.CIRCLE(
     CIRCLE_CATEGORY VARCHAR(10)     NOT NULL,               #分類→運動系・文化系・その他
     INTRO           VARCHAR(520)    NOT NULL,               #紹介文→５００文字以内
     CONTACT         VARCHAR(2083)           ,               #お問い合わせ先　なければnull
-    ENTHUSIASM      VARCHAR(10)     NOT NULL,               #ガチ度
-    FREQ_DRINK      INT             NOT NULL,               #飲み会の頻度→ガッツリ・そこそこ・まったり
-    FREQ_ACTIVITY   INT             NOT NULL                #活動の頻度 0~31
+    ENTHUSIASM      VARCHAR(10)     NOT NULL,               #ガチ度→ガッツリ・そこそこ・まったり
+    FREQ_DRINK      INT             NOT NULL,               #飲み会の頻度 0~31
+    FREQ_ACTIVITY   INT             NOT NULL                #活動の頻度 
 );
 
 #サークル活動日時テーマ
