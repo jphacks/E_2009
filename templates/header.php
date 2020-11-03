@@ -7,6 +7,8 @@
     <title><?php echo $title ?></title>
   </head>
   <body>
+
+<!-- DBに接続 -->
 <?php
   require('env.php');
 ?>
