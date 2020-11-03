@@ -15,4 +15,11 @@ $schoolSearch = $mysqli->query($schoolSearchSql);
 // レコード数を取得
 $row_school = mysqli_num_rows($schoolSearch);
 
+// レコード数によって遷移先を決定
+if($row_school==1){
+  header("location: list.php");
+}else{
+  header("location: select.php");
+}
+
 ?>
