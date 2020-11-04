@@ -49,5 +49,23 @@ function textLengthCheck() {
   var input = document.getElementById("formTextArea");
   var span = document.getElementById("inputCounter");
   span.textContent = input.value.length;
+
+
+  if(span.textContent > 500){
+    var newElement = document.createElement("p"); // p要素作成
+    var newContent = document.createTextNode("500文字を超えています"); // テキストノードを作成
+    
+    newElement.appendChild(newContent); // p要素にテキストノードを追加
+    newElement.setAttribute("id","lengthExcess"); // p要素にidを設定
+     
+    // ----------------------------
+    // 親要素の最初の子要素を追加します
+    // ----------------------------
+    // 親要素（div）への参照を取得
+    var parentDiv = document.getElementById("inputCounter");
+
+    parentDiv.insertBefore(newElement, inputCounter.firstChild);
+
+  }
 }
 
