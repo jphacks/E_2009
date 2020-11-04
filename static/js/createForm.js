@@ -50,3 +50,4 @@ function textLengthCheck() {
   var span = document.getElementById("inputCounter");
   span.textContent = input.value.length;
 }
+
