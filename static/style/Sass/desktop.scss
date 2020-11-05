@@ -1,0 +1,28 @@
+/* PC版デザイン */
+@media screen and (min-width: 500px) {
+
+  /* title */
+  .titleBig {
+    width: 65%;
+    max-width: 750px;
+    font-size: 500%;
+    margin: 70px 0 20px;
+    h1 {
+      top: 21px;
+    }
+  }
+
+  .titleSmall{
+    width: 50%;
+    font-size: 350%;
+    margin: 40px 0 20px;
+    h1{
+      top: 15px;
+    }
+  }
+
+  /* top.php */
+  img {
+    width: 400px;
+  }
+}

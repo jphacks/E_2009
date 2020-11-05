@@ -1,7 +1,7 @@
 <?php $title = 'Kindred select'; ?>
 <?php include('./header.php'); ?>
 
-<div id="titleBig"><h1><a href="./top.php">Kindred</a></h1></div>
+<div class="title titleBig"><h1><a href="./top.php">Kindred</a></h1></div>
 <p>circle matching app</p>
 
 <div id="selectArea">
