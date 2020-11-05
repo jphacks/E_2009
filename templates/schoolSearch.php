@@ -20,6 +20,10 @@ $row_school = mysqli_num_rows($schoolSearch);
 
 // レコード数によって遷移先を決定
 if($row_school==1){
+  // 学部名とキャンパス名をセッション変数に格納
+  foreach($schoolSearch as $row){
+    $_SESSION['selectCampus'] = $row['DEPART_NAME'].'&nbsp'.$row['CAMPUS_NAME'];
+  }
   header("location: list.php");
 }else{
   header("location: select.php");
