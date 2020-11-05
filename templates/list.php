@@ -62,6 +62,6 @@
 <!-- PHPで各サークルの名前と写真をDBから取得してここに出力する -->
 </div>
 
-<button><span class="material-icons">arrow_back</span></button>
+<button id="backBtn"><span class="material-icons">arrow_back</span></button>
 
 <?php include('./footer.php'); ?>

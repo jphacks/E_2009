@@ -79,7 +79,7 @@
   </form>
 </div>
 
-<button onclick="location.href='./list.php'"><span class="material-icons">arrow_back</span></button>
+<button id="backBtn" onclick="location.href='./list.php'"><span class="material-icons">arrow_back</span></button>
 
 <script src="../static/js/createForm.js"></script>
 

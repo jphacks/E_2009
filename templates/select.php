@@ -29,6 +29,6 @@
 ?>
 </div>
 
-<button onclick="location.href='./top.php'"><span class="material-icons">arrow_back</span></button>
+<button id="backBtn" onclick="location.href='./top.php'"><span class="material-icons">arrow_back</span></button>
 
 <?php include('./footer.php'); ?>
