@@ -72,6 +72,11 @@
   <div id="uploadArea">
     <p>写真のアップロード</p>
     <!-- ここにアップロード機能を追加する -->
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+      Files:<input type="file" name="upfile[]" multiple>
+    </form>
+
+
   </div>
 
     <button type="submit">登録する</button>
