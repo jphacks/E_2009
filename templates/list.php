@@ -1,16 +1,18 @@
 <?php $title = 'Kindred university'; ?>
 <?php include('./header.php'); ?>
 
-<h1><a href="./top.php">Kindred</a></h1>
-<p>circle matching app</p>
+<div class="title titleSmall"><h1><a href="./top.php">Kindred</a></h1></div>
+<p class="subTitle subTitleSmall">circle matching app</p>
 
-<form id="searchArea">
+<form id="circleSearch">
 
-  <button type="submit">サークル登録する</button>
+  <button>サークル登録する</button>
 
   <p>サークル名で検索</p>
-  <input type="text" placeholder="Circle name">
-  <button type="submit"><span class="material-icons">search</span></button>
+  <div id="searchArea">
+  <input type="text" placeholder="Circle name" id="searchWord" onChange="formCheck()">
+  <button type="submit" id="schoolSearchBtn"><span class="material-icons">search</span></button>
+  </div>
 
   <p>ジャンルで検索</p>
   <select name="circle_category">
@@ -55,11 +57,12 @@
   // 大学名・学部名・キャンパス名を出力
   echo '<p>'.$_SESSION['schoolName'].'</p>';
   echo '<p>'.$_SESSION['selectCampus'].'</p>';
-  
+
 ?>
 <!-- PHPで各サークルの名前と写真をDBから取得してここに出力する -->
 </div>
 
-<button><span class="material-icons">arrow_back</span></button>
+<button id="backBtn"><span class="material-icons">arrow_back</span></button>
 
+<script src="../static/js/formCheck.js"></script>
 <?php include('./footer.php'); ?>

@@ -1,0 +1,60 @@
+/* スマホ用デザイン */
+
+/* title */
+.titleBig {
+  width: 280px;
+  font-size: 60px;
+  margin: 90px 0 5px;
+  h1 {
+    top: 17px;
+  }
+}
+
+.titleSmall {
+  width: 220px;
+  font-size: 38px;
+  margin: 20px 0 3px;
+  h1 {
+    top: 10px;
+  }
+}
+
+/* subTitle */
+.subTitleBig {
+  font-size: 23px;
+  margin: 0 0 0 100px;
+}
+
+.subTitleSmall {
+  font-size: 18px;
+  margin: 0 0 0 150px;
+}
+
+/* searchArea */
+#searchArea {
+  margin: 80px auto 40px;
+}
+
+/* top.php */
+img {
+  width: 300px;
+}
+
+/* select.php */
+#selectArea{
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px 0;
+  p {
+    display: block;
+    margin: 0 auto 10px;
+    font-size: 28px;
+  }
+}
+
+/* backBtn */
+#backBtn{
+  position: absolute;
+  top: 550px;
+  left: 40px;
+}
