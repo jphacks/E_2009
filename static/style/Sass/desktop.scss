@@ -4,7 +4,7 @@
   /* title */
   .titleBig {
     width: 55%;
-    max-width: 950px;
+    max-width: 1000px;
     font-size: 480%;
     margin: 70px 0 10px;
     h1 {
@@ -35,6 +35,11 @@
     width: 58%;
     max-width: 1000px;
     text-align: end;
+  }
+
+  /* searchArea */
+  #searchArea{
+    margin: 130px auto 80px;
   }
 
   /* top.php */

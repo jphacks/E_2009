@@ -10,6 +10,10 @@ html {
   background-color: $bg-color;
 }
 
+body{
+  margin: 50px auto;
+}
+
 /* title */
 .title{
   text-align: end;
@@ -24,6 +28,26 @@ html {
 .subTitle{
   width: fit-content;
   color: $text-color;
+}
+
+/* searchArea */
+#searchArea{
+  width: fit-content;
+  display: flex;
+  input{
+    border: 3px solid #ffffff;
+    padding: 5px 10px;
+  }
+  ::placeholder{
+    color: #ffffff;
+    letter-spacing: 0.1rem;
+  }
+  button{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 2px 12px;
+  }
 }
 
 /* top.php */
