@@ -8,7 +8,12 @@
   </head>
   <body>
 
-<!-- DBに接続 -->
 <?php
+
+  // DBに接続
   require('env.php');
+
+  // セッション開始
+  session_start();
+
 ?>

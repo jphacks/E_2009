@@ -3,11 +3,14 @@
 // DB接続
 require('./env.php');
 
+// セッション開始
+session_start();
+
 // top.phpから値を受け取って遷移先を決定する
-$schoolName=$_POST['schoolName'];
+$_SESSION['schoolName'] = $_POST['schoolName'];
 
 // 変数にSELECT文を格納
-$schoolSearchSql = "SELECT SCHOOL_NAME,DEPART_NAME,CAMPUS_NAME FROM SCHOOL WHERE SCHOOL_NAME='".$schoolName."'";
+$schoolSearchSql = "SELECT SCHOOL_NAME,DEPART_NAME,CAMPUS_NAME FROM SCHOOL WHERE SCHOOL_NAME='".$_SESSION['schoolName']."'";
 
 // SELECT文の実行
 $schoolSearch = $mysqli->query($schoolSearchSql);
