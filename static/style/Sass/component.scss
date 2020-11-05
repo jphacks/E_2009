@@ -5,11 +5,12 @@ $text-color: #404040;
 $shadow: #d6d6d6;
 $back-btn: #545454;
 
-/* 全体の共通部分ここから */
+
 html {
   background-color: $bg-color;
 }
 
+/* title */
 .title{
   text-align: end;
   background-color: #ffffff;
@@ -19,33 +20,11 @@ html {
   }
 }
 
-/*
-#titleBig{
-  width: 50%;
-  text-align: end;
-  background-color: #ffffff;
-  font-size: 500%;
-  position: relative;
-  margin: 5% 0 2%;
-  h1{
-    position: inherit;
-    top: 21px;
-  }
+/* subTitle */
+.subTitle{
+  width: fit-content;
+  color: $text-color;
 }
-
-#titleSmall{
-  width: 50%;
-  text-align: end;
-  background-color: #ffffff;
-  font-size: 350%;
-  position: relative;
-  margin: 2% 0;
-  h1{
-    position: inherit;
-    top: 15px;
-  }
-}
-*/
 
 /* top.php */
 img{
@@ -53,4 +32,3 @@ img{
   margin: 0 auto;
 }
 
-/* 全体の共通部分ここまで */

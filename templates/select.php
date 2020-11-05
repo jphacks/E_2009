@@ -2,7 +2,7 @@
 <?php include('./header.php'); ?>
 
 <div class="title titleBig"><h1><a href="./top.php">Kindred</a></h1></div>
-<p>circle matching app</p>
+<p class="subTitle subTitleBig">circle matching app</p>
 
 <div id="selectArea">
 <?php

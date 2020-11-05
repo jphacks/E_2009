@@ -2,7 +2,8 @@
 <?php include('./header.php'); ?>
 
 <div class="title titleBig"><h1>Kindred</h1></div>
-<p>circle matching app</p>
+<p class="subTitle subTitleBig">circle matching app</p>
+
 <form id="searchArea" action="schoolSearch.php" method="post">
   <input type="text" placeholder="University name" name="schoolName">
   <button type="submit"><span class="material-icons">search</span></button>

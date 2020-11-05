@@ -2,21 +2,32 @@
 
 /* title */
   .titleBig {
-    width: 310px;
-    font-size: 65px;
-    margin: 40px 0 10px;
+    width: 280px;
+    font-size: 60px;
+    margin: 40px 0 5px;
     h1 {
       top: 17px;
     }
   }
 
   .titleSmall{
-    width: 230px;
+    width: 220px;
     font-size: 38px;
-    margin: 20px 0;
+    margin: 20px 0 3px;
     h1{
       top: 10px;
     }
+  }
+
+    /* subTitle */
+  .subTitleBig{
+    font-size: 23px;
+    margin: 0 0 0 100px;
+  }
+
+  .subTitleSmall{
+    font-size: 18px;
+    margin: 0 0 0 150px;
   }
 
   /* top.php */

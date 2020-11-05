@@ -3,10 +3,10 @@
 
   /* title */
   .titleBig {
-    width: 65%;
-    max-width: 750px;
-    font-size: 500%;
-    margin: 70px 0 20px;
+    width: 55%;
+    max-width: 950px;
+    font-size: 480%;
+    margin: 70px 0 10px;
     h1 {
       top: 21px;
     }
@@ -14,11 +14,27 @@
 
   .titleSmall{
     width: 50%;
-    font-size: 350%;
-    margin: 40px 0 20px;
+    max-width: 900px;
+    font-size: 330%;
+    margin: 40px 0 5px;
     h1{
       top: 15px;
     }
+  }
+
+  /* subTitle */
+  .subTitleBig{
+    font-size: 30px;
+    width: 65%;
+    max-width: 1100px;
+    text-align: end;
+  }
+
+  .subTitleSmall{
+    font-size: 23px;
+    width: 58%;
+    max-width: 1000px;
+    text-align: end;
   }
 
   /* top.php */
