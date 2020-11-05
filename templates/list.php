@@ -10,8 +10,8 @@
 
   <p>サークル名で検索</p>
   <div id="searchArea">
-  <input type="text" placeholder="Circle name">
-  <button type="submit"><span class="material-icons">search</span></button>
+  <input type="text" placeholder="Circle name" id="searchWord" onChange="formCheck()">
+  <button type="submit" id="schoolSearchBtn"><span class="material-icons">search</span></button>
   </div>
 
   <p>ジャンルで検索</p>
@@ -64,4 +64,5 @@
 
 <button id="backBtn"><span class="material-icons">arrow_back</span></button>
 
+<script src="../static/js/formCheck.js"></script>
 <?php include('./footer.php'); ?>
