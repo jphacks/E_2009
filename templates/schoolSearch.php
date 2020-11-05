@@ -6,7 +6,7 @@ require('./env.php');
 // セッション開始
 session_start();
 
-// top.phpから値を受け取って遷移先を決定する
+// top.phpから値を受け取ってセッション変数に格納
 $_SESSION['schoolName'] = $_POST['schoolName'];
 
 // 変数にSELECT文を格納

@@ -5,7 +5,6 @@
 <p>circle matching app</p>
 
 <div id="selectArea">
-<!-- PHPで大学名とキャンパス名をDBから取得してここに出力する -->
 <?php
 
   // 変数にSELECT文を格納
