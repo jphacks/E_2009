@@ -4,13 +4,15 @@
 <div class="title titleSmall"><h1><a href="./top.php">Kindred</a></h1></div>
 <p class="subTitle subTitleSmall">circle matching app</p>
 
-<form id="searchArea">
+<form id="circleSearch">
 
-  <button type="submit">サークル登録する</button>
+  <button>サークル登録する</button>
 
   <p>サークル名で検索</p>
+  <div id="searchArea">
   <input type="text" placeholder="Circle name">
   <button type="submit"><span class="material-icons">search</span></button>
+  </div>
 
   <p>ジャンルで検索</p>
   <select name="circle_category">
