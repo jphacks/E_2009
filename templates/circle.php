@@ -1,7 +1,7 @@
 <?php $title = 'Kindred circle'; ?>
 <?php include('./header.php'); ?>
 
-<h1><a href="./top.php">Kindred</a></h1>
+<div id="titleSmall"><h1><a href="./top.php">Kindred</a></h1></div>
 <p>circle matching app</p>
 
 <!-- PHPで大学名とキャンパス名をDBから取得してここに出力する -->

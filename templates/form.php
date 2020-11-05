@@ -1,7 +1,7 @@
 <?php $title = 'Kindred form'; ?>
 <?php include('./header.php'); ?>
 
-<h1><a href="./top.php">Kindred</a></h1>
+<div id="titleSmall"><h1><a href="./top.php">Kindred</a></h1></div>
 <p>circle matching app</p>
 <p>サークル新規登録</p>
 

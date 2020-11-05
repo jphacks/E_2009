@@ -9,4 +9,31 @@ $back-btn: #545454;
 html {
   background-color: $bg-color;
 }
+
+#titleBig{
+  width: 50%;
+  text-align: end;
+  background-color: #ffffff;
+  font-size: 500%;
+  position: relative;
+  margin: 5% 0 2%;
+  h1{
+    position: inherit;
+    top: 21px;
+  }
+}
+
+#titleSmall{
+  width: 50%;
+  text-align: end;
+  background-color: #ffffff;
+  font-size: 350%;
+  position: relative;
+  margin: 2% 0;
+  h1{
+    position: inherit;
+    top: 15px;
+  }
+}
+
 /* 全体の共通部分ここまで */

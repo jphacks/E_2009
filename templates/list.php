@@ -1,7 +1,7 @@
 <?php $title = 'Kindred university'; ?>
 <?php include('./header.php'); ?>
 
-<h1><a href="./top.php">Kindred</a></h1>
+<div id="titleSmall"><h1><a href="./top.php">Kindred</a></h1></div>
 <p>circle matching app</p>
 
 <form id="searchArea">
@@ -55,7 +55,7 @@
   // 大学名・学部名・キャンパス名を出力
   echo '<p>'.$_SESSION['schoolName'].'</p>';
   echo '<p>'.$_SESSION['selectCampus'].'</p>';
-  
+
 ?>
 <!-- PHPで各サークルの名前と写真をDBから取得してここに出力する -->
 </div>
