@@ -9,6 +9,15 @@ session_start();
 // 選択された学部名とキャンパス名をセッション変数に格納する
 $_SESSION['selectCampus'] = $_POST['selectCampus'];
 
+$sql = "SELECT CAMPUS_NAME FROM SCHOOL WHERE SCHOOL_NAME='".$_SESSION['schoolName']."'AND DEPART_NAME='".$_SESSION['selectCampus']."'";
+
+$campusName = $mysqli->query($sql);
+
+foreach ($campusName as $row){
+  // キャンパス名をセッション変数に格納する
+  $_SESSION['campusName'] = $row['CAMPUS_NAME'];
+}
+
 header("location: list.php");
 
 ?>

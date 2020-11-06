@@ -21,7 +21,7 @@
 
   // 学部名とキャンパス名を出力
   foreach ($schoolSearch as $row){
-    echo '<label><input type="radio" name="selectCampus" value="'.$row['DEPART_NAME'].$row['CAMPUS_NAME'].'" required>'.$row['DEPART_NAME'].'&nbsp'.$row['CAMPUS_NAME'].'</label>';
+    echo '<label><input type="radio" name="selectCampus" value="'.$row['DEPART_NAME'].'" required>'.$row['DEPART_NAME'].'&nbsp'.$row['CAMPUS_NAME'].'</label>';
   }
 
   echo '<button class="submitBtn" type="submit">選択する</button></form>';
