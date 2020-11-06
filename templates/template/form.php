@@ -1,5 +1,5 @@
 <?php $title = 'Kindred form'; ?>
-<?php include('./header.php'); ?>
+<?php include('../component/header.php'); ?>
 
 <div class="title titleSmall"><h1><a href="./top.php">Kindred</a></h1></div>
 <p class="subTitle subTitleSmall">circle matching app</p>
@@ -86,6 +86,6 @@
 
 <button id="backBtn" onclick="location.href='./list.php'"><span class="material-icons">arrow_back</span></button>
 
-<script src="../static/js/createForm.js"></script>
+<script src="../../static/js/createForm.js"></script>
 
-<?php include('./footer.php'); ?>
+<?php include('../component/footer.php'); ?>

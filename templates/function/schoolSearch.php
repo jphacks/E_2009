@@ -18,15 +18,18 @@ $schoolSearch = $mysqli->query($schoolSearchSql);
 // レコード数を取得
 $row_school = mysqli_num_rows($schoolSearch);
 
+// レコード数をセッション変数に代入
+$_SESSION['row_school'] = $row_school;
+
 // レコード数によって遷移先を決定
-if($row_school==1){
+if($_SESSION['row_school']==1){
   // 学部名とキャンパス名をセッション変数に格納
   foreach($schoolSearch as $row){
     $_SESSION['selectCampus'] = $row['DEPART_NAME'].'&nbsp'.$row['CAMPUS_NAME'];
   }
-  header("location: list.php");
+  header("location: ../template/list.php");
 }else{
-  header("location: select.php");
+  header("location: ../template/select.php");
 }
 
 ?>

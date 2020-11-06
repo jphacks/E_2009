@@ -67,6 +67,10 @@ img {
   margin: 30px auto 0;
   padding: 10px 20px;
   border-radius: 5px;
+  &.addCircle{
+    margin: 30px auto 0;
+    display: block;
+  }
 }
 
 .addCircle{
@@ -78,4 +82,16 @@ img {
   position: absolute;
   top: 550px;
   left: 40px;
+}
+
+/* list.php */
+#circleSearch{
+  #searchArea{
+    margin: 30px auto;
+  }
+}
+
+#dropdownArea{
+  flex-direction: column;
+  margin: 0 auto;
 }
