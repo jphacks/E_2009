@@ -58,10 +58,17 @@
   echo '<p>'.$_SESSION['schoolName'].'</p>';
   echo '<p>'.$_SESSION['selectCampus'].'&nbsp'.$_SESSION['campusName'].'</p>';
 
-  //
+  // サークル名と写真を取得
+  $sql = "SELECT CIRCLE_NAME,IMAGE1 FROM CIRCLE_IMAGE WHERE ID='".$_SESSION['ID']."'";
+
+  $circleImage = $mysqli->query($sql);
+
+  // サークル名と写真を出力
+  foreach ($circleImage as $row){
+    echo '<p>'.$row['CIRCLE_NAME'].'</p><image src="../static/image/'.$row['IMAGE1'].'"alt="サークルの写真">';
+  }
 
 ?>
-<!-- PHPで各サークルの名前と写真をDBから取得してここに出力する -->
 </div>
 
 <button id="backBtn"><span class="material-icons">arrow_back</span></button>
