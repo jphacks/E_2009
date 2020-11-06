@@ -75,7 +75,7 @@
 ?>
 </div>
 
-<button id="backBtn"><span class="material-icons">arrow_back</span></button>
+<button id="backBtn" onclick="location.href='./backBtn.php'"><span class="material-icons">arrow_back</span></button>
 
 <script src="../static/js/formCheck.js"></script>
 <?php include('./footer.php'); ?>
