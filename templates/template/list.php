@@ -48,7 +48,7 @@
     <option>16～20</option>
     <option>21～25</option>
     <option>26～31</option>
-  </select>7
+  </select>
 </div>
 </form>
 
