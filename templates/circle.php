@@ -4,7 +4,11 @@
 <div class="title titleSmall"><h1><a href="./top.php">Kindred</a></h1></div>
 <p class="subTitle subTitleSmall">circle matching app</p>
 
-<!-- PHPで大学名とキャンパス名をDBから取得してここに出力する -->
+<?php
+  // 大学名・学部名・キャンパス名を出力
+  echo '<p>'.$_SESSION['schoolName'].'</p>';
+  echo '<p>'.$_SESSION['selectCampus'].'</p>';
+?>
 
 <div id="circleProfileArea">
 <!-- PHPでサークル名をDBから取得してここに出力する -->

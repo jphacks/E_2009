@@ -17,14 +17,14 @@
   echo '<p>'.$_SESSION['schoolName'].'</p>';
 
   // form作成
-  echo '<form action="sessionName.php" method="post">';
+  echo '<form id="selectCampus" action="sessionName.php" method="post">';
 
   // 学部名とキャンパス名を出力
   foreach ($schoolSearch as $row){
-    echo '<label><input type="radio" name="selectCampus" value="'.$row['DEPART_NAME'].'&nbsp'.$row['CAMPUS_NAME'].'" required>'.$row['DEPART_NAME'].$row['CAMPUS_NAME'].'</label>';
+    echo '<label><input type="radio" name="selectCampus" value="'.$row['DEPART_NAME'].$row['CAMPUS_NAME'].'" required>'.$row['DEPART_NAME'].'&nbsp'.$row['CAMPUS_NAME'].'</label>';
   }
 
-  echo '<button type="submit">選択する</button></form>';
+  echo '<button class="submitBtn" type="submit">選択する</button></form>';
 
 ?>
 </div>

@@ -44,12 +44,33 @@ img {
 #selectArea{
   width: 90%;
   margin: 30px auto;
-  padding: 20px 0;
+  padding: 30px 0 20px;
   p {
     display: block;
     margin: 0 auto 10px;
     font-size: 28px;
   }
+}
+
+#selectCampus{
+  margin: 10px auto;
+  label{
+    margin: 10px 0;
+    font-size: 17px;
+    input{
+      margin-right: 8px;
+    }
+  }
+}
+
+.submitBtn{
+  margin: 30px auto 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.addCircle{
+  margin: 0 auto;
 }
 
 /* backBtn */

@@ -1,6 +1,7 @@
 /* 変数宣言 */
 $bg-color: #ffc405;
 $btn-color: #a15ac9;
+$btn-hover:#c38ce4;
 $text-color: #404040;
 $shadow: #d6d6d6;
 $back-btn: #545454;
@@ -58,10 +59,21 @@ img{
 
 /* select.php */
 #selectArea{
+  display: flex;
+  flex-direction: column;
   background-color: #ffffff;
   p{
     width: fit-content;
     display: inline-block;
+  }
+}
+
+#selectCampus{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  label{
+    width: fit-content;
   }
 }
 
@@ -75,3 +87,15 @@ img{
     display: grid;
   }
 }
+
+/* submitBtn */
+.submitBtn{
+  width: fit-content;
+  background-color: $btn-color;
+  color: #ffffff;
+  &:hover{
+    background-color: $btn-hover;
+  }
+}
+
+/* list.php */
