@@ -54,8 +54,27 @@
   padding: 0;
   p{
     display: inline-block;
-    margin: 30px auto 20px 40px;
+    margin: 40px auto 20px 60px;
     font-size: 30px;
+  }
+}
+
+#selectCampus{
+  margin: 10px auto 40px;
+  label{
+    margin: 10px 0;
+    font-size: 20px;
+    &:hover{
+      cursor: pointer;
+    }
+    input{
+      margin-right: 8px;
+    }
+  }
+  button{
+    margin: 30px auto 0;
+    padding: 10px 20px;
+    border-radius: 5px;
   }
 }
 
