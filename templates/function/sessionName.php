@@ -20,6 +20,6 @@ foreach ($campusName as $row){
   $_SESSION['ID'] = $row['ID'];
 }
 
-header("location: list.php");
+header("location: ../template/list.php");
 
 ?>

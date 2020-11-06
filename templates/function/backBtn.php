@@ -8,9 +8,9 @@ session_start();
 
 // レコード数によって遷移先を決定
 if($_SESSION['row_school']==1){
-  header("location: top.php");
+  header("location: ../template/top.php");
 }else{
-  header("location: select.php");
+  header("location: ../template/select.php");
 }
 
 ?>

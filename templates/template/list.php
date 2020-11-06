@@ -1,5 +1,5 @@
 <?php $title = 'Kindred university'; ?>
-<?php include('./header.php'); ?>
+<?php include('../component/header.php'); ?>
 
 <div class="title titleSmall"><h1><a href="./top.php">Kindred</a></h1></div>
 <p class="subTitle subTitleSmall">circle matching app</p>
@@ -75,7 +75,7 @@
 ?>
 </div>
 
-<button id="backBtn" onclick="location.href='./backBtn.php'"><span class="material-icons">arrow_back</span></button>
+<button id="backBtn" onclick="location.href='../function/backBtn.php'"><span class="material-icons">arrow_back</span></button>
 
-<script src="../static/js/formCheck.js"></script>
-<?php include('./footer.php'); ?>
+<script src="../../static/js/formCheck.js"></script>
+<?php include('../component/footer.php'); ?>

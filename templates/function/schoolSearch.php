@@ -27,9 +27,9 @@ if($_SESSION['row_school']==1){
   foreach($schoolSearch as $row){
     $_SESSION['selectCampus'] = $row['DEPART_NAME'].'&nbsp'.$row['CAMPUS_NAME'];
   }
-  header("location: list.php");
+  header("location: ../template/list.php");
 }else{
-  header("location: select.php");
+  header("location: ../template/select.php");
 }
 
 ?>
