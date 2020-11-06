@@ -63,9 +63,13 @@
 
   $circleImage = $mysqli->query($sql);
 
+  // onclick属性を変数に代入
+  $onClick1 = 'onclick="location.href=';
+  $onClick2 = "'./circle.php'".'"';
+
   // サークル名と写真を出力
   foreach ($circleImage as $row){
-    echo '<p>'.$row['CIRCLE_NAME'].'</p><image src="../static/image/'.$row['IMAGE1'].'"alt="サークルの写真">';
+    echo '<div id="circleCard"'.$onClick1.$onClick2.'><p>'.$row['CIRCLE_NAME'].'</p><image src="../static/image/'.$row['IMAGE1'].'"alt="サークルの写真"></div>';
   }
 
 ?>
