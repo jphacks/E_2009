@@ -4,7 +4,7 @@
 <div class="title titleSmall"><h1><a href="./top.php">Kindred</a></h1></div>
 <p class="subTitle subTitleSmall">circle matching app</p>
 
-<button onclick="location.href='./form.php'">サークル登録する</button>
+<button class="submitBtn addCircle" onclick="location.href='./form.php'">サークル登録する</button>
 
 <form id="circleSearch">
 
