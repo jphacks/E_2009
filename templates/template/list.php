@@ -8,7 +8,6 @@
 
 <form id="circleSearch">
 
-  <p>サークル名で検索</p>
   <div id="searchArea">
   <input type="text" placeholder="Circle name" id="searchWord" onChange="formCheck()">
   <button type="submit" id="schoolSearchBtn"><span class="material-icons">search</span></button>
