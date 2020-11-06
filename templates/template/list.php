@@ -13,15 +13,16 @@
   <button type="submit" id="schoolSearchBtn"><span class="material-icons">search</span></button>
   </div>
 
-  <p>ジャンルで検索</p>
+  <div id="dropdownArea">
   <select name="circle_category">
+    <option>ジャンルで検索</option>
     <option>運動系</option>
     <option>文化系</option>
     <option>その他</option>
   </select>
 
-  <p>週の活動頻度で検索</p>
   <select name="frequency_activity">
+    <option>週の活動頻度で検索</option>
     <option>1</option>
     <option>2</option>
     <option>3</option>
@@ -31,15 +32,15 @@
     <option>7</option>
   </select>
 
-  <p>ガチ度で検索</p>
   <select name="enthusiasm">
+    <option>ガチ度で検索</option>
     <option>がっつり</option>
     <option>そこそこ</option>
     <option>まったり</option>
   </select>
 
-  <p>飲み会の頻度で検索</p>
   <select name="frequency_of_drinking">
+    <option>飲み会の頻度で検索</option>
     <option>0</option>
     <option>1～5</option>
     <option>6～10</option>
@@ -47,7 +48,8 @@
     <option>16～20</option>
     <option>21～25</option>
     <option>26～31</option>
-  </select>
+  </select>7
+</div>
 </form>
 
 <div id="circleListArea">
