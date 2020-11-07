@@ -1,6 +1,10 @@
 # サークルマッチングアプリ "Kindred"
 
-[![IMAGE ALT TEXT HERE](https://jphacks.com/wp-content/uploads/2020/09/JPHACKS2020_ogp.jpg)](https://www.youtube.com/watch?v=G5rULR53uMk)
+<!-- [![IMAGE ALT TEXT HERE](https://jphacks.com/wp-content/uploads/2020/09/JPHACKS2020_ogp.jpg)](https://www.youtube.com/watch?v=G5rULR53uMk) -->
+
+## URL
+- デモ動画（youtube）：https://youtu.be/N10-JscYwE0
+- デザイン案（adobeXD）：https://xd.adobe.com/view/78b012c3-d22f-43f7-a3b1-6aa30aece2ed-2de3/
 
 ## 製品概要
 各大学のサークル情報を閲覧でき、興味のあるサークルがあればコンタクトを取ることができるWebアプリです。<br>
