@@ -121,7 +121,7 @@
     </div>';
 
     // お問い合わせ
-    echo '<form id="contactForm"><button type="submit">お問い合わせ</button></form></div>';
+    echo '<form id="contactForm"><button class="submitBtn" type="submit">お問い合わせ</button></form></div>';
   }
 ?>
 
