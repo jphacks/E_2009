@@ -133,3 +133,16 @@ img {
       margin: 0 8px;
     }
 }
+
+#circleProfileArea{
+  margin: 0 auto;
+  padding: 10px;
+  .circleInfoName{
+    font-size: 23px;
+  }
+  .circleInfoIntro{
+    width: 310px;
+    margin: 10px auto;
+    text-align: initial;
+  }
+}

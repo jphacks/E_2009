@@ -148,4 +148,17 @@
     }
 }
 
+#circleProfileArea{
+  margin: 0 auto;
+  padding: 20px 40px;
+  .circleInfoName{
+    font-size: 25px;
+  }
+  .circleInfoIntro{
+    width: 500px;
+    margin: 10px auto;
+    text-align: initial;
+  }
+}
+
 }

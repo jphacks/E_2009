@@ -134,3 +134,17 @@ img{
     width: fit-content;
   }
 }
+
+#circleProfileArea{
+  width: fit-content;
+  background-color: #ffffff;
+  text-align: center;
+  .circleInfoName{
+    width: fit-content;
+    display: inline-block;
+    margin: 10px auto;
+  }
+  .circleInfoIntro{
+    width: fit-content;
+  }
+}

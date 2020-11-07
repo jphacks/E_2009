@@ -51,12 +51,12 @@
   foreach ($circleInfo as $row){
 
     // サークル名を出力
-    echo '<p>'.$row['CIRCLE_NAME'].'</p>';
+    echo '<p class="circleInfoName">'.$row['CIRCLE_NAME'].'</p>';
 
     // Swiperで写真をここにスライド表示させる
 
     // サークルの紹介文を表示
-    echo '<p>'.$row['INTRO'].'</p>';
+    echo '<p class="circleInfoIntro">'.$row['INTRO'].'</p>';
 
     // PHPで活動日時の情報をDBから取得してここにテーブルとして出力する
     echo '<div id="tableArea"><p>活動日時</p>
