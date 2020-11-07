@@ -4,7 +4,7 @@
 <div class="title titleBig"><h1><a href="./top.php">Kindred</a></h1></div>
 <p class="subTitle subTitleBig">circle matching app</p>
 
-<div id="selectArea">
+<div class="selectArea">
 <?php
 
   // 変数にSELECT文を格納
@@ -14,7 +14,7 @@
   $schoolSearch = $mysqli->query($sql);
 
   // 大学名の出力
-  echo '<p>'.$_SESSION['schoolName'].'</p>';
+  echo '<p id="selectP">'.$_SESSION['schoolName'].'</p>';
 
   // form作成
   echo '<form id="selectCampus" action="../function/sessionName.php" method="post">';
