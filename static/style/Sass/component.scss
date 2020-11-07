@@ -177,6 +177,7 @@ img{
   width: fit-content;
   span,#selectTime{
     display: flex;
+    align-items: center;
     select{
       border: 1px solid $text-color;
       padding: 3px 5px;
