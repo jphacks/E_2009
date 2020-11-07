@@ -3,7 +3,7 @@ $bg-color: #ffc405;
 $btn-color: #a15ac9;
 $btn-hover:#c38ce4;
 $text-color: #404040;
-$shadow: #d6d6d6;
+$shadow: #e6e6e6;
 $back-btn: #545454;
 
 
@@ -109,5 +109,16 @@ img{
   select{
     background-color: #ffffff;
     border-radius: 5px;
+  }
+}
+
+#circleCard{
+  width: fit-content;
+  background-color: #ffffff;
+  border: 1px solid $shadow;
+  box-shadow: 3px 3px 3px $shadow;
+  border-radius: 3px;
+  p{
+    width: fit-content;
   }
 }
