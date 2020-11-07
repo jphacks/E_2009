@@ -119,3 +119,17 @@ img {
     margin: 5px 25px 15px;
   }
 }
+
+/* circle.php */
+.circleFlex{
+  flex-direction: column;
+  margin: 25px auto;
+    .circleSchoolName{
+      font-size: 23px;
+      margin: 0 auto 10px;
+    }
+    .circleCampus,.circleCampusName{
+      font-size: 20px;
+      margin: 0 8px;
+    }
+}

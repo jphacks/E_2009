@@ -132,4 +132,20 @@
   }
 }
 
+/* circle.php */
+.circleFlex{
+  flex-direction: initial;
+  align-items: center;
+  margin: 30px auto;
+    .circleSchoolName{
+      font-size: 28px;
+      margin: 0 auto;
+    }
+    .circleCampus,.circleCampusName{
+      font-size: 25px;
+      margin-left: 20px;
+      margin-bottom: 0;
+    }
+}
+
 }

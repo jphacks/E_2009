@@ -6,8 +6,9 @@
 
 <?php
   // 大学名・学部名・キャンパス名を出力
-  echo '<p>'.$_SESSION['schoolName'].'</p>';
-  echo '<p>'.$_SESSION['selectCampus'].'&nbsp'.$_SESSION['campusName'].'</p>';
+  echo '<div class="circleFlex"><p class="circleP circleSchoolName">'.$_SESSION['schoolName'].'</p>';
+  echo '<div class="campusNameFlex"><p class="circleP circleCampus">'.$_SESSION['selectCampus'].'</p>';
+  echo '<p class="circleP circleCampusName">'.$_SESSION['campusName'].'</p></div></div>';
 
   $sql = "SELECT
     CIRCLE.CIRCLE_NAME,

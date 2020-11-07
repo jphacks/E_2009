@@ -122,3 +122,15 @@ img{
     width: fit-content;
   }
 }
+
+/* circle.php */
+.circleFlex{
+  width: fit-content;
+  display: flex;
+  .campusNameFlex{
+    display: flex;
+  }
+  .circleP{
+    width: fit-content;
+  }
+}
