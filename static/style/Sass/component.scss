@@ -3,7 +3,7 @@ $bg-color: #ffc405;
 $btn-color: #a15ac9;
 $btn-hover:#c38ce4;
 $text-color: #404040;
-$shadow: #d6d6d6;
+$shadow: #e6e6e6;
 $back-btn: #545454;
 
 
@@ -58,13 +58,17 @@ img{
 }
 
 /* select.php */
-#selectArea{
+.selectArea{
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
-  p{
+  #selectP,#listSchoolP{
     width: fit-content;
     display: inline-block;
+  }
+  .listCampusArea{
+    width: fit-content;
+    display: flex;
   }
 }
 
@@ -102,4 +106,62 @@ img{
 #dropdownArea{
   width: fit-content;
   display: flex;
+  select{
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+}
+
+#circleCard{
+  width: fit-content;
+  background-color: #ffffff;
+  border: 1px solid $shadow;
+  box-shadow: 3px 3px 3px $shadow;
+  border-radius: 3px;
+  p{
+    width: fit-content;
+  }
+}
+
+/* circle.php */
+.circleFlex{
+  width: fit-content;
+  display: flex;
+  .campusNameFlex{
+    display: flex;
+  }
+  .circleP{
+    width: fit-content;
+  }
+}
+
+#circleProfileArea{
+  width: fit-content;
+  background-color: #ffffff;
+  text-align: center;
+  .circleInfoName{
+    width: fit-content;
+    display: inline-block;
+    margin: 10px auto;
+  }
+  .circleInfoIntro{
+    width: fit-content;
+    text-indent: 1em;
+  }
+}
+
+#tableArea{
+  width: fit-content;
+  display: flex;
+  table{
+    border-collapse: collapse;
+    td{
+      border: 1px solid $text-color;
+    }
+  }
+}
+
+#contactForm{
+  width: fit-content;
+  height: fit-content;
 }

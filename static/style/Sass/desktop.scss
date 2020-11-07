@@ -48,14 +48,22 @@
   }
 
 /* select.php */
-#selectArea{
+.selectArea{
   width: 600px;
   margin: 30px auto;
   padding: 0;
-  p{
+  #selectP,#listSchoolP{
     display: inline-block;
     margin: 40px auto 20px 60px;
     font-size: 30px;
+  }
+  .listCampusArea{
+    flex-direction: initial;
+    margin: 0 auto;
+  }
+  #listCampusP,#listCampusNameP{
+    font-size: 23px;
+    margin: 0 10px;
   }
 }
 
@@ -104,6 +112,71 @@
 #dropdownArea{
   flex-direction: inherit;
   margin: 0 auto;
+  select{
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+}
+
+#circleCard{
+  margin: 30px auto;
+  cursor: pointer;
+  p{
+    font-size: 23px;
+    margin: 20px auto;
+  }
+  img{
+    width: 300px;
+    margin: 5px 30px 20px;
+  }
+}
+
+/* circle.php */
+.circleFlex{
+  flex-direction: initial;
+  align-items: center;
+  margin: 30px auto;
+    .circleSchoolName{
+      font-size: 28px;
+      margin: 0 auto;
+    }
+    .circleCampus,.circleCampusName{
+      font-size: 25px;
+      margin-left: 20px;
+      margin-bottom: 0;
+    }
+}
+
+#circleProfileArea{
+  margin: 0 auto;
+  padding: 20px 40px;
+  .circleInfoName{
+    font-size: 25px;
+  }
+  .circleInfoIntro{
+    width: 500px;
+    margin: 10px auto;
+    text-align: initial;
+  }
+}
+
+#tableArea{
+  margin: 40px auto;
+  flex-direction: initial;
+  table{
+    margin: 0 20px;
+  }
+  td{
+    padding: 10px;
+  }
+}
+
+#contactForm{
+  margin: 30px auto 20px;
+  .submitBtn{
+    margin: 0;
+  }
 }
 
 }

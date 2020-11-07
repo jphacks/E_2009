@@ -6,8 +6,9 @@
 
 <?php
   // 大学名・学部名・キャンパス名を出力
-  echo '<p>'.$_SESSION['schoolName'].'</p>';
-  echo '<p>'.$_SESSION['selectCampus'].'&nbsp'.$_SESSION['campusName'].'</p>';
+  echo '<div class="circleFlex"><p class="circleP circleSchoolName">'.$_SESSION['schoolName'].'</p>';
+  echo '<div class="campusNameFlex"><p class="circleP circleCampus">'.$_SESSION['selectCampus'].'</p>';
+  echo '<p class="circleP circleCampusName">'.$_SESSION['campusName'].'</p></div></div>';
 
   $sql = "SELECT
     CIRCLE.CIRCLE_NAME,
@@ -50,16 +51,19 @@
   foreach ($circleInfo as $row){
 
     // サークル名を出力
-    echo '<p>'.$row['CIRCLE_NAME'].'</p>';
+    echo '<p class="circleInfoName">'.$row['CIRCLE_NAME'].'</p>';
 
     // Swiperで写真をここにスライド表示させる
 
     // サークルの紹介文を表示
-    echo '<p>'.$row['INTRO'].'</p>';
+    echo '<p class="circleInfoIntro">'.$row['INTRO'].'</p>';
 
     // PHPで活動日時の情報をDBから取得してここにテーブルとして出力する
-    echo '<div id="tableArea"><p>活動日時</p>
+    echo '<div id="tableArea">
     <table>
+      <tr>
+        <td colspan="2">活動日時</td>
+      </tr>
       <tr>
         <td>月</td>
         <td>'.$row['MON_TIME'].'</td>
@@ -92,8 +96,11 @@
 
 
     // PHPで活動概要の情報をDBから取得してここにテーブルとして出力する
-    echo '<p>活動概要</p>
+    echo '
     <table>
+      <tr>
+        <td colspan="2">活動概要</td>
+      </tr>
       <tr>
         <td>分類</td>
         <td>'.$row['CIRCLE_CATEGORY'].'</td>
@@ -110,10 +117,11 @@
         <td>飲み会の頻度</td>
         <td>'.$row['FREQ_DRINK'].'</td>
       </tr>
-    </table>';
+    </table>
+    </div>';
 
     // お問い合わせ
-    echo '<form id="contactForm"><button type="submit">お問い合わせ</button></form></div>';
+    echo '<form id="contactForm"><button class="submitBtn" type="submit">お問い合わせ</button></form></div>';
   }
 ?>
 

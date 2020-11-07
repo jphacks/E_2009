@@ -52,12 +52,13 @@
 </div>
 </form>
 
-<div id="circleListArea">
+<div class="selectArea circleList">
 <?php
 
   // 大学名・学部名・キャンパス名を出力
-  echo '<p>'.$_SESSION['schoolName'].'</p>';
-  echo '<p>'.$_SESSION['selectCampus'].'&nbsp'.$_SESSION['campusName'].'</p>';
+  echo '<p id="listSchoolP">'.$_SESSION['schoolName'].'</p>';
+  echo '<div class="listCampusArea"><p id="listCampusP">'.$_SESSION['selectCampus'].'</p>';
+  echo '<p id="listCampusNameP">'.$_SESSION['campusName'].'</p></div>';
 
   // サークル名と写真を取得
   $sql = "SELECT CIRCLE_NAME,IMAGE1 FROM CIRCLE_IMAGE WHERE ID='".$_SESSION['ID']."'";
