@@ -165,3 +165,28 @@ img{
   width: fit-content;
   height: fit-content;
 }
+
+
+/* form.php */
+#addNewCircle{
+  width: fit-content;
+}
+
+#addCircleInfo{
+  background-color: #ffffff;
+  width: fit-content;
+  span,#selectTime{
+    display: flex;
+    align-items: center;
+    select{
+      border: 1px solid $text-color;
+      padding: 3px 5px;
+    }
+  }
+  #activityDate,#textArea{
+    display: initial;
+  }
+  .inputForm{
+    border: 1px solid $text-color;
+  }
+}

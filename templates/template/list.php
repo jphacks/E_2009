@@ -71,7 +71,7 @@
 
   // サークル名と写真を出力
   foreach ($circleImage as $row){
-    echo '<div id="circleCard"'.$onClick1.$onClick2.'><p>'.$row['CIRCLE_NAME'].'</p><image src="../static/image/'.$row['IMAGE1'].'"alt="サークルの写真"></div>';
+    echo '<div id="circleCard"'.$onClick1.$onClick2.'><p>'.$row['CIRCLE_NAME'].'</p><image src="../../database/'.$row['IMAGE1'].'"alt="サークルの写真"></div>';
   }
 
 ?>
