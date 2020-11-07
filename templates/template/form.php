@@ -3,29 +3,29 @@
 
 <div class="title titleSmall"><h1><a href="./top.php">Kindred</a></h1></div>
 <p class="subTitle subTitleSmall">circle matching app</p>
-<p>サークル新規登録</p>
+<p id="addNewCircle">サークル新規登録</p>
 
 <div id="addCircleInfo">
   <form id="addForm">
 
   <span>
     <p>大学名</p>
-    <input type="text">
+    <input type="text" class="inputForm">
   </span>
 
   <span>
     <p>学部名</p>
-    <input type="text">
+    <input type="text" class="inputForm">
   </span>
 
   <span>
     <p>サークル名</p>
-    <input type="text">
+    <input type="text" class="inputForm">
   </span>
 
-  <span>
+  <span id="textArea">
     <p>紹介文</p>
-    <textarea id="formTextArea" rows="10" cols="50" onkeyup="textLengthCheck();"></textarea>
+    <textarea id="formTextArea" rows="10" cols="50" onkeyup="textLengthCheck();" class="inputForm"></textarea>
     <p><span id="inputCounter">0</span>/500文字</p>
   </span>
 
@@ -66,7 +66,7 @@
 
   <span>
     <p>飲み会の頻度</p>
-    <input type="text">
+    <input type="text" class="inputForm">
   </span>
 
   <div id="uploadArea">
