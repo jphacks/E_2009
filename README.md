@@ -1,8 +1,8 @@
-# サークルマッチングアプリ "Kindred"
-
+# サークルマッチングアプリ "Kindred" &#x1f603;&#x2728;
 <!-- [![IMAGE ALT TEXT HERE](https://jphacks.com/wp-content/uploads/2020/09/JPHACKS2020_ogp.jpg)](https://www.youtube.com/watch?v=G5rULR53uMk) -->
+![thumbnaill](https://user-images.githubusercontent.com/66319933/98448668-0abb4c00-2171-11eb-9bd2-3d3063e91d87.png)
 
-## URL
+## 各種URL
 - デモ動画（youtube）：https://youtu.be/N10-JscYwE0
 - デザイン案（adobeXD）：https://xd.adobe.com/view/78b012c3-d22f-43f7-a3b1-6aa30aece2ed-2de3/
 
