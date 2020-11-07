@@ -146,3 +146,14 @@ img {
     text-align: initial;
   }
 }
+
+#tableArea{
+  margin: 0 auto;
+  flex-direction: column;
+  table{
+    margin: 20px auto;
+  }
+  td{
+    padding: 10px;
+  }
+}

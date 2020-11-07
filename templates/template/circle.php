@@ -59,8 +59,11 @@
     echo '<p class="circleInfoIntro">'.$row['INTRO'].'</p>';
 
     // PHPで活動日時の情報をDBから取得してここにテーブルとして出力する
-    echo '<div id="tableArea"><p>活動日時</p>
+    echo '<div id="tableArea">
     <table>
+      <tr>
+        <td colspan="2">活動日時</td>
+      </tr>
       <tr>
         <td>月</td>
         <td>'.$row['MON_TIME'].'</td>
@@ -93,8 +96,11 @@
 
 
     // PHPで活動概要の情報をDBから取得してここにテーブルとして出力する
-    echo '<p>活動概要</p>
+    echo '
     <table>
+      <tr>
+        <td colspan="2">活動概要</td>
+      </tr>
       <tr>
         <td>分類</td>
         <td>'.$row['CIRCLE_CATEGORY'].'</td>
@@ -111,7 +117,8 @@
         <td>飲み会の頻度</td>
         <td>'.$row['FREQ_DRINK'].'</td>
       </tr>
-    </table>';
+    </table>
+    </div>';
 
     // お問い合わせ
     echo '<form id="contactForm"><button type="submit">お問い合わせ</button></form></div>';

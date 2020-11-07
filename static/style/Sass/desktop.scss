@@ -161,4 +161,15 @@
   }
 }
 
+#tableArea{
+  margin: 40px auto;
+  flex-direction: initial;
+  table{
+    margin: 0 20px;
+  }
+  td{
+    padding: 10px;
+  }
+}
+
 }

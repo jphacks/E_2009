@@ -148,3 +148,14 @@ img{
     width: fit-content;
   }
 }
+
+#tableArea{
+  width: fit-content;
+  display: flex;
+  table{
+    border-collapse: collapse;
+    td{
+      border: 1px solid $text-color;
+    }
+  }
+}
